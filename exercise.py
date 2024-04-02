@@ -38,8 +38,8 @@ def recommend_exercises_with_plan(user_level, body_part, num_recommendations=5):
 
 # Streamlit web app
 st.title('HealthGeek')
-st.subtitle('Exercise Recommendation System')
 
+st.markdown("## Exercise Recommendation System")
 # Select skill level and body part
 user_level = st.selectbox('Select your skill level:', ['Beginner', 'Intermediate', 'Expert'])
 body_part = st.selectbox('Select the body part:', ['Abdominals', 'Quadriceps', 'Shoulders', 'Chest', 'Biceps'])
