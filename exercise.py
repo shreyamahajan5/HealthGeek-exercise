@@ -5,7 +5,7 @@ from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics.pairwise import linear_kernel
 
 # Load dataset
-dataset = pd.read_csv("megaGymDataset.csv")
+dataset = pd.read_csv("exercise_dataset.csv")
 
 # Drop rows with missing values in the 'Desc' column
 dataset = dataset.dropna(subset=['Desc'])
